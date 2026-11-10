@@ -155,6 +155,8 @@ SOURCES += Util/Helper.cpp \
   Simulation/OpcUaClient.cpp \
   Simulation/ArchivedSimulationsWidget.cpp \
   FMI/ImportFMUDialog.cpp \
+  XMILE/XMILETranslator.cpp \
+  XMILE/ImportXMILEDialog.cpp \
   FMI/ImportFMUModelDescriptionDialog.cpp \
   FMI/FMUExportOutputWidget.cpp \
   Plotting/VariablesWidget.cpp \
@@ -276,6 +278,8 @@ HEADERS  += Util/Helper.h \
   Simulation/OpcUaClient.h \
   Simulation/ArchivedSimulationsWidget.h \
   FMI/ImportFMUDialog.h \
+  XMILE/XMILETranslator.h \
+  XMILE/ImportXMILEDialog.h \
   FMI/ImportFMUModelDescriptionDialog.h \
   FMI/FMUExportOutputWidget.h \
   Plotting/VariablesWidget.h \

@@ -198,6 +198,7 @@ public:
   QAction* getExportToOMNotebookAction() {return mpExportToOMNotebookAction;}
   QAction* getImportFromOMNotebookAction() {return mpImportFromOMNotebookAction;}
   QAction* getImportNgspiceNetlistAction() {return mpImportNgspiceNetlistAction;}
+  QAction* getImportXMILEAction() {return mpImportXMILEAction;}
   QAction* getConnectModeAction() {return mpConnectModeAction;}
   QAction* getTransitionModeAction() {return mpTransitionModeAction;}
   QAction* getAddSystemAction() {return mpAddSystemAction;}
@@ -345,6 +346,7 @@ private:
   QAction *mpImportFMUModelDescriptionAction;
   QAction *mpImportFromOMNotebookAction;
   QAction *mpImportNgspiceNetlistAction;
+  QAction *mpImportXMILEAction;
   QAction *mpExportToClipboardAction;
   QAction *mpExportAsImageAction;
   QAction *mpExportFMUAction;
@@ -548,6 +550,7 @@ public slots:
   void updateLibraryIndex(bool forceUpdate);
   void importModelfromOMNotebook();
   void importNgspiceNetlist();
+  void importXMILE();
   bool checkModelActiveExportModelAsImage();
   void exportModelAsImage();
   QImage exportModelAsImage(QString fileName, bool drawExtents = false, ViewSelection diagramSelection = ViewSelection::SelectedInGUI, ModelWidget *pModelWidget = nullptr, QSize size = QSize());
